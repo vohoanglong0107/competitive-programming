@@ -16,5 +16,5 @@ fn main() {
     // x.clear();
     let s = String::from(x.trim());
 
-    println!("{:?}", Solution::delete_string(s))
+    println!("{:?}", Solution::longest_prefix(s))
 }
